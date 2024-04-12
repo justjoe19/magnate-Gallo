@@ -1,0 +1,155 @@
+body {
+    background-color: #B1A296;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 1em 5em 1em 5em;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: auto;
+}
+
+li {
+    display: inline;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+
+    border-radius: 5em;
+    background-color: #7395AE;
+    margin: 1em 5em 1em 5em;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5D5C61;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    font-size: larger;
+    padding: 10px 20px;
+}
+
+.promotion-container {
+    display: flex;
+    justify-content: center;
+}
+
+.promotion {
+    width: 100%;
+}
+
+.main {
+    margin: 2em 5em 2em 5em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0em 2em 0em;
+    padding: auto;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    background-color: #557A95;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 200px;
+    align-items: center;
+}
+
+.flex-item img {
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin: 5em;
+    border-radius: 5em;
+    background-color: #7395AE;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content img {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.contact-form {
+    width: 700px;
+    height: auto;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #557A95;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea#message {
+    height: 300px;
+    width: 100%;
+
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
